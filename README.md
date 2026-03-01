@@ -49,7 +49,7 @@ MessageCreateParams parameters = new()
     Model = Model.ClaudeSonnet4_5_20250929,
 };
 
-var message = await client.Messages.Create(parameters);
+var message = akait client.Messages.Create(parameters);
 
 Console.WriteLine(message);
 ```
